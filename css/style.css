@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Home Page */
+
+/*start head section */
+
+#head{
+    width: 100%;
+    background-color:#333399;
+    color: white;
+}
+#head1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 30px;
+}
+#head1 ul{
+    display: flex;
+}
+
+#head1 ul li{
+    list-style: none;
+}
+#head1 ul li a{
+    text-decoration: none;
+    color:white;
+    flex-direction: column;
+    padding: 0 15px;
+}
+#head2{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+#head2 h1{
+    font-size: 55px;
+}
+#head2 p{
+    margin-top: 20px;
+}
+#head2 button{
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+/* end head section */
+
+/* start know section */
+
+#know{
+    background-color: ghostwhite;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+#know p{
+    width: 70%;
+    margin-left: 15%;
+    line-height: 30px;
+}
+#a{
+    margin-top: 40px;
+}
+
+/* end know section */
+
+/* start skills section */
+
+#skill{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+#skill1,#skill2{
+    padding-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#html,#css,#js,#react,#sass,#wordpress{
+    width: 30%;
+}
+.fa-html5{
+    font-size: 80px;
+    color: orange;
+}
+.fa-css3-alt{
+    font-size: 80px;
+    color: blue;
+}
+.fa-js{
+    font-size: 80px;
+    color: goldenrod;
+}
+.fa-react{
+    font-size: 80px;
+    color: lightseagreen;
+}
+.fa-sass{
+    font-size: 80px;
+    color: palevioletred;
+}
+.fa-wordpress{
+    font-size: 80px;
+    color: steelblue;
+}
+
+/* end skill section */
+
+/* start flex section */
+
+#flex{
+    width: 100%;
+    background: linear-gradient(rgb(51, 51, 153,0.8),rgb(51, 51, 153,0.8)),url(../img/portfolio-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+#flex h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+#flex button{
+    padding: 10px 30px;
+    font-weight: bold;
+}
+/* end flex section */
+
+/* start service section */
+
+#service{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: ghostwhite;
+}
+#service1{
+    padding-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+#ui,#css3,#js2{
+    width: 30%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+#ui h2,#css3 h2,#js2 h2{
+    padding-bottom: 20px;
+}
+.clr{
+    background-color: #333399;
+    color: white;
+}
+
+.set{
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+
+/* end service section */
+
+/* start testimonial section */
+
+#testimonial{
+    width: 100%;
+    background-color: #333399;
+    text-align: center;
+    padding: 50px 0;
+    color: ghostwhite;
+}
+#test1{
+    width: 90%;
+    margin: 0 auto;
+}
+#test1 h1{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+#test1 p,#test1 img{
+    padding-bottom: 20px;
+}
+#test1 img{
+    border-radius: 10px;
+}
+/* end testimonial section */
+
+/* start editor section */
+
+#editor{
+    background-color: ghostwhite;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+#editor1{
+    width: 70%;
+    margin: 0 auto;
+}
+#editor1 h1,#editor p{
+    padding-bottom: 20px;
+}
+#editor button{
+    background-color: #333399;
+    color: ghostwhite;
+    padding: 10px;
+    border-style: none;
+}
+/* end editor section */
+
+/* start footer */
+
+#footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.fa-twitter,.fa-youtube,.fa-github{
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+/* end footer */
+
+/* End Home Page */
+
+
+/* Start About Page */
+
+/* start head section */
+
+#head3{
+    font-size: 50px;
+    margin-left: 10%;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+/* end head section */
+
+/* start bio section */
+
+#bio{
+    width: 100%;
+    background-color: ghostwhite;
+    padding: 50px 0;
+}
+#bio1{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#bio2{
+    width: 75%;
+}
+#bio3 img{
+    height: 300px;
+}
+#bio3 h2{
+    text-align: center;
+}
+/* end bio section */
+
+/* start sevice section */
+
+.set2{
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: #333399;
+}
+
+/* end service section */
+
+/* start services section */
+
+#services{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:white;
+}
+#services1{
+    padding-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+#henry,#margaret,#john{
+    width: 30%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+#henry h2,#margaret h2,#john h2{
+    padding-bottom: 20px;
+}
+#henry img,#margaret img,#john img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* end services section */
+
+/* end about page */
+
+
+/* start contact page */
+
+/* start form section */
+
+#form{
+    width: 100%;
+    padding: 100px 0;
+    background-color: ghostwhite;
+    text-align: center;
+}
+#form1{
+    width: 60%;
+    margin: 0 auto;
+}
+#form2{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between  ;
+}
+#form2 input{
+    width: 45%;
+    padding: 10px 2px;
+}
+#form1 textarea{
+    width: 100%;
+}
+#form1 button{
+    background-color: #333399;
+    padding: 12px 100px;
+    color: white;
+    border-style: none;
+    margin-top: 20px;
+}
+/* end form section */
+/* end contact page */
